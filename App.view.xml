@@ -18,7 +18,7 @@
 				</VBox>
 			</uxap:headerContent>
 			<uxap:headerTitle>
-				<uxap:ObjectPageHeader objectImageURI="/images/PatVincentLachica.jpg" objectTitle="Pat Vincent Lachica" objectSubtitle="SAP Fiori/ UI5/ PI Consultant"
+				<uxap:ObjectPageHeader objectImageURI="/MyPortfolio/images/PatVincentLachica.jpg" objectTitle="Pat Vincent Lachica" objectSubtitle="SAP Fiori/ UI5/ PI Consultant"
 					headerDesign="Light" objectImageShape="Circle" isObjectIconAlwaysVisible="false" isObjectTitleAlwaysVisible="false"
 					isObjectSubtitleAlwaysVisible="false" isActionAreaAlwaysVisible="true">
 					<uxap:breadCrumbsLinks/>
