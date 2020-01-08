@@ -1,5 +1,4 @@
 sap.ui.define([
-<<<<<<< HEAD
 	"sap/ui/core/mvc/XMLView"
 ], function (XMLView) {
 =======
@@ -11,6 +10,9 @@ sap.ui.define([
 	XMLView.create({viewName: "Quickstart.App"}).then(function (oView) {
 		oView.placeAt("content");
 	});
+<<<<<<< HEAD
+});
+=======
 =======
 	"sap/m/Button",
 	"sap/m/MessageToast"
@@ -33,4 +35,5 @@ sap.ui.define([
 
 >>>>>>> branch 'master' of https://github.com/patvincent21/MyPortfolio.git
 });
+>>>>>>> branch 'master' of https://github.com/patvincent21/MyPortfolio.git
 >>>>>>> branch 'master' of https://github.com/patvincent21/MyPortfolio.git
