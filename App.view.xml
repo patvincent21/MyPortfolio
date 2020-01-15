@@ -1,7 +1,10 @@
 <mvc:View controllerName="Quickstart.App" displayBlock="true" 
 	xmlns="sap.m" 
 	xmlns:mvc="sap.ui.core.mvc" 
-	xmlns:uxap="sap.uxap">
+	xmlns:uxap="sap.uxap"
+	xmlns:l="sap.ui.layout"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:personal="sap.uxap.sample.SharedBlocks.personal">
 	<App>
 		<uxap:ObjectPageLayout showTitleInHeaderContent="true" showHeaderContent="true" showAnchorBar="true" showFooter="false"
 			subSectionLayout="TitleOnTop">
@@ -18,7 +21,7 @@
 				</VBox>
 			</uxap:headerContent>
 			<uxap:headerTitle>
-				<uxap:ObjectPageHeader objectImageURI="/MyPortfolio/images/PatVincentLachica.jpg" objectTitle="Pat Vincent Lachica" objectSubtitle="SAP Fiori/ UI5/ PI Consultant"
+				<uxap:ObjectPageHeader objectImageURI="/images/PatVincentLachica.jpg" objectTitle="Pat Vincent Lachica" objectSubtitle="SAP Fiori/ UI5/ PI Consultant"
 					headerDesign="Light" objectImageShape="Circle" isObjectIconAlwaysVisible="false" isObjectTitleAlwaysVisible="false"
 					isObjectSubtitleAlwaysVisible="false" isActionAreaAlwaysVisible="true">
 					<uxap:breadCrumbsLinks/>
@@ -26,11 +29,23 @@
 				</uxap:ObjectPageHeader>
 			</uxap:headerTitle>
 			<uxap:sections>
+				<!--SKILLS Section-->
 				<uxap:ObjectPageSection showTitle="true" title="Page Section Title" titleUppercase="true" visible="true">
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="Skills" mode="Expanded">
 							<uxap:blocks>
-								<Label text="Expertise on the following Technology and Tools" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="SAP Fiori" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="SAP UI5" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="SAP Process Integration" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="SAP ABAP(Basic)" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="JavaScript" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="JQuery" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="HTML5" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="CSS3" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="PHP" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="Bootstrap" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="Java" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<Label text="Photoshop" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
 							</uxap:blocks>
 							<uxap:moreBlocks/>
 							<uxap:actions/>
@@ -38,11 +53,14 @@
 					</uxap:subSections>
 					<uxap:customAnchorBarButton/>
 				</uxap:ObjectPageSection>
+				<!--End of SKILLS Section-->
+				<!--EDUCATION AND TRAINING Section-->
 				<uxap:ObjectPageSection showTitle="true" title="Page Section Title" titleUppercase="true" visible="true">
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="Education and Training" mode="Expanded">
 							<uxap:blocks>
-								<Label text="Some random text" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								 <FormattedText htmlText="Highest Education&lt;ul>&lt;li>Bachelor of Science in Information Technology(2011 - 2015)&lt;/li>&lt;li>Saint Louis University Baguio City&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								 <FormattedText htmlText="Relevant Training - SAP Philippines&lt;ul>&lt;li>UX100 - SAP Fiori Foundation&lt;/li>&lt;li>UX402 - SAPUI5 Development&lt;/li>&lt;li>GW100 - Building OData Services&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 							</uxap:blocks>
 							<uxap:moreBlocks/>
 							<uxap:actions/>
@@ -50,11 +68,13 @@
 					</uxap:subSections>
 					<uxap:customAnchorBarButton/>
 				</uxap:ObjectPageSection>
+				<!--End of EDUCATION AND TRAINING Section-->
+				<!--WORK EXPERIENCE Section-->
 				<uxap:ObjectPageSection showTitle="true" title="Page Section Title" titleUppercase="true" visible="true">
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="Work Experience" mode="Expanded">
 							<uxap:blocks>
-								<Label text="Some random text" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								 <FormattedText htmlText="Fujitsu Philippines Global Delivery Center (July 2015 - Present)&lt;ul>&lt;li>SAP Fiori Consultant&lt;/li>&lt;li>SAP UI5 Consultant&lt;/li>&lt;li>SAP Process Integration Consultant&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 							</uxap:blocks>
 							<uxap:moreBlocks/>
 							<uxap:actions/>
@@ -62,11 +82,21 @@
 					</uxap:subSections>
 					<uxap:customAnchorBarButton/>
 				</uxap:ObjectPageSection>
+				<!--End of WORK EXPERIENCE Section-->
+				<!--PROJECT EXPERIENCE Section-->
 				<uxap:ObjectPageSection showTitle="true" title="Page Section Title" titleUppercase="true" visible="true">
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="Project Experience" mode="Expanded">
 							<uxap:blocks>
-								<Label text="Some random text" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								<FormattedText htmlText="Client: Splash&lt;ul>&lt;li>Role: SAP Fiori/ UI5 Consultant&lt;/li>&lt;li>Project: SAP S/4 HANA Implementation&lt;/li>&lt;li>Duration: November 2019 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: Media Quest TV5&lt;ul>&lt;li>Role: SAP Fiori/ UI5 Consultant&lt;/li>&lt;li>Project: Fiori Implementation&lt;/li>&lt;li>Duration: January 2019 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: Toyota Motor Philippines&lt;ul>&lt;li>Role: SAP PI Consultant&lt;/li>&lt;li>Project: New Plant Implementation&lt;/li>&lt;li>Duration: June 2019 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: Manila Water Company Inc.&lt;ul>&lt;li>Role: SAP PI Consultant&lt;/li>&lt;li>Project: Support&lt;/li>&lt;li>Duration: May 2019 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: Electranet&lt;ul>&lt;li>Role: SAP Fiori Consultant&lt;/li>&lt;li>Project: Support&lt;/li>&lt;li>Duration: April 2019 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: Fujitsu GDC - SAP Services&lt;ul>&lt;li>Role: SAP Fiori/ UI5 Consultant&lt;/li>&lt;li>Project: SAP S/4 HANA Implementation&lt;/li>&lt;li>Duration: July 2018 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: McDonalds&lt;ul>&lt;li>Role: SAP ABAP Consultant&lt;/li>&lt;li>Project: SAP Implementation and Support&lt;/li>&lt;li>Duration: August 2016 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: Toyota Motor Philippines&lt;ul>&lt;li>Role: SAP PI Consultant&lt;/li>&lt;li>Project: SAP S/4 HANA Implementation&lt;/li>&lt;li>Duration: July 2018 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: Monde Nissin Corporation&lt;ul>&lt;li>Role: SAP Fiori/ PI Consultant&lt;/li>&lt;li>Project: SAP Implementation and Support&lt;/li>&lt;li>Duration: November 2015 - January 2018&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 							</uxap:blocks>
 							<uxap:moreBlocks/>
 							<uxap:actions/>
@@ -74,11 +104,13 @@
 					</uxap:subSections>
 					<uxap:customAnchorBarButton/>
 				</uxap:ObjectPageSection>
+				<!--End of PROJECT EXPERIENCE Section-->
+				<!--PERSONAL INFORMATION Section-->
 				<uxap:ObjectPageSection showTitle="true" title="Page Section Title" titleUppercase="true" visible="true">
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="Personal Information" mode="Expanded">
 							<uxap:blocks>
-								<Label text="Some random text" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+								 <FormattedText htmlText="&lt;ul>&lt;li>Birth Place: San Quintin, Pangasinan Philippines&lt;/li>&lt;li>Date of Birth: February 21, 1995&lt;/li>&lt;li>Civil Status: Single&lt;/li>&lt;li>Nationality: Filipino&lt;/li>&lt;li>Language: English, Tagalog, Ilocano&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 							</uxap:blocks>
 							<uxap:moreBlocks/>
 							<uxap:actions/>
@@ -86,6 +118,7 @@
 					</uxap:subSections>
 					<uxap:customAnchorBarButton/>
 				</uxap:ObjectPageSection>
+				<!--End of PERSONAL INFORMATION Section-->
 			</uxap:sections>
 			<uxap:footer>
 				<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
