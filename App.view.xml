@@ -74,7 +74,10 @@
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="Work Experience" mode="Expanded">
 							<uxap:blocks>
-								 <FormattedText htmlText="Fujitsu Philippines Global Delivery Center (July 2015 - Present)&lt;ul>&lt;li>SAP Fiori Consultant&lt;/li>&lt;li>SAP UI5 Consultant&lt;/li>&lt;li>SAP Process Integration Consultant&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								 <FormattedText htmlText="Fujitsu Philippines Global Delivery Center (July 2015 - April 2020)&lt;ul>&lt;li>SAP Fiori Consultant&lt;/li>&lt;li>SAP UI5 Consultant&lt;/li>&lt;li>SAP Process Integration Consultant&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+							</uxap:blocks>
+							<uxap:blocks>
+								 <FormattedText htmlText="IBM Solutions Delivery, Inc. (May 2020 - May 2021)&lt;ul>&lt;li>SAP Fiori Consultant&lt;/li>&lt;li>SAP UI5 Consultant&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 							</uxap:blocks>
 							<uxap:moreBlocks/>
 							<uxap:actions/>
@@ -88,6 +91,8 @@
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="Project Experience" mode="Expanded">
 							<uxap:blocks>
+								<FormattedText htmlText="Client: GlenDimplex - Ireland&lt;ul>&lt;li>Role: SAP Fiori/ UI5 Consultant&lt;/li>&lt;li>Project: SAP S/4 HANA Implementation&lt;/li>&lt;li>Duration: May 2020 - May 2021&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								<FormattedText htmlText="Client: National University Health System - Singapore&lt;ul>&lt;li>Role: SAP Fiori/ UI5 Consultant&lt;/li>&lt;li>Project: SAP SuccessFactors Implementation&lt;/li>&lt;li>Duration: July 2020 - October 2020&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 								<FormattedText htmlText="Client: Splash&lt;ul>&lt;li>Role: SAP Fiori/ UI5 Consultant&lt;/li>&lt;li>Project: SAP S/4 HANA Implementation&lt;/li>&lt;li>Duration: November 2019 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 								<FormattedText htmlText="Client: Media Quest TV5&lt;ul>&lt;li>Role: SAP Fiori/ UI5 Consultant&lt;/li>&lt;li>Project: Fiori Implementation&lt;/li>&lt;li>Duration: January 2019 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 								<FormattedText htmlText="Client: Toyota Motor Philippines&lt;ul>&lt;li>Role: SAP PI Consultant&lt;/li>&lt;li>Project: New Plant Implementation&lt;/li>&lt;li>Duration: June 2019 - Present&lt;/li>&lt;/ul>" width="auto" visible="true"/>
