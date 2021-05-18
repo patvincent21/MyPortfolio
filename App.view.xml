@@ -12,7 +12,7 @@
 				<VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div"
 					visible="true" displayInline="false">
 					<items>
-						<Link text="+6391781584481" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true"
+						<Link text="+639178158448" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true"
 							emphasized="false" subtle="false"/>
 						<Link text="lpatvincent21@gmail.com" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false"
 							subtle="false"/>
@@ -59,7 +59,7 @@
 					<uxap:subSections>
 						<uxap:ObjectPageSubSection title="Education and Training" mode="Expanded">
 							<uxap:blocks>
-								 <FormattedText htmlText="Highest Education&lt;ul>&lt;li>Bachelor of Science in Information Technology(2011 - 2015)&lt;/li>&lt;li>Saint Louis University Baguio City&lt;/li>&lt;/ul>" width="auto" visible="true"/>
+								 <FormattedText htmlText="Highest Education&lt;ul>&lt;li>Bachelor of Science in Information Technology(2011 - 2015)&lt;/li>&lt;li>Saint Loui University Baguio City&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 								 <FormattedText htmlText="Relevant Training - SAP Philippines&lt;ul>&lt;li>UX100 - SAP Fiori Foundation&lt;/li>&lt;li>UX402 - SAPUI5 Development&lt;/li>&lt;li>GW100 - Building OData Services&lt;/li>&lt;/ul>" width="auto" visible="true"/>
 							</uxap:blocks>
 							<uxap:moreBlocks/>
